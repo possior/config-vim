@@ -8,10 +8,16 @@
 
 ## 基本構造
 
+``` vimscript
+```
+
 # Technical Document
 
 ## Table of Contents
 
+- [Basic Structure](#basic-structure)
+
 ## Basic Structure
 
-- [Basic Structure](#basic-structure)
+``` vimscript
+```

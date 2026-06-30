@@ -2,4 +2,8 @@
 
 # Vimの設定
 
+## 目次
+
 # Vim Configuration
+
+## Table of Contents

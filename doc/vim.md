@@ -9,6 +9,7 @@
 ## 基本構造
 
 ``` vimscript
+set number
 ```
 
 # Technical Document
@@ -20,4 +21,5 @@
 ## Basic Structure
 
 ``` vimscript
+set number
 ```

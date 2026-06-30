@@ -4,6 +4,10 @@
 
 ## 目次
 
+- [利用許諾（CC0、0BSD）](./license.md)
+
 # Vim Configuration
 
 ## Table of Contents
+
+- [License (CC0, 0BSD)](./license.md)

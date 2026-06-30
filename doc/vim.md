@@ -9,7 +9,12 @@
 ## 基本構造
 
 ``` vimscript
+set nocompatible
 set number
+set wrap
+
+set encoding=utf-8
+set laststatus=2
 ```
 
 # Technical Document
@@ -21,5 +26,10 @@ set number
 ## Basic Structure
 
 ``` vimscript
+set nocompatible
 set number
+set wrap
+
+set encoding=utf-8
+set laststatus=2
 ```

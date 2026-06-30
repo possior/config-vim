@@ -1,16 +1,16 @@
 function overwriter() {
   if
-    [[ ${1##*/} == .bashrc || ${1##*/} == .bash_profile ]]
+    [[ ${1##*/} == .vimrc ]]
   then
     curl -so ${HOME}/${1##*/} ${1}
   else
-    curl -so ${HOME}/.config/bash/${1##*/} ${1}
+    curl -so ${HOME}/.config/vim/${1##*/} ${1}
   fi
 }
 
 function preserver() {
   if
-    [[ ${1##*/} == .bashrc || ${1##*/} == .bash_profile ]]
+    [[ ${1##*/} == .vimrc ]]
   then
     if
       [[ ! -f ${HOME}/${1##*/} ]]
@@ -21,7 +21,7 @@ function preserver() {
     if
       [[ ! -f ${HOME}/${1##*/} ]]
     then
-      curl -so ${HOME}/.config/bash/${1##*/} ${1}
+      curl -so ${HOME}/.config/vim/${1##*/} ${1}
     fi
   fi
 }
@@ -60,23 +60,19 @@ done
 echo ".. parsed arguments"
 
 if
-  [[ ! -d ${HOME}/.config/bash ]]
+  [[ ! -d ${HOME}/.config/vim ]]
 then
-  mkdir -p ${HOME}/.config/bash
+  mkdir -p ${HOME}/.config/vim
   echo ".. created the configuration directory"
 fi
 
 case "${behavior:-overwrite}" in
   "overwrite")
-    overwriter https://raw.githubusercontent.com/possior/config-bash/default/src/.bash_profile
-    overwriter https://raw.githubusercontent.com/possior/config-bash/default/src/.bashrc
-    overwriter https://raw.githubusercontent.com/possior/config-bash/default/src/bash.sh
+    overwriter https://raw.githubusercontent.com/possior/config-vim/default/src/.vimrc
     echo ".. downloaded configuration files (overwrite)"
     ;;
   "preserve")
-    preserver https://raw.githubusercontent.com/possior/config-bash/default/src/.bash_profile
-    preserver https://raw.githubusercontent.com/possior/config-bash/default/src/.bashrc
-    preserver https://raw.githubusercontent.com/possior/config-bash/default/src/bash.sh
+    preserver https://raw.githubusercontent.com/possior/config-vim/default/src/.vimrc
     echo ".. downloaded configuration files (preserve)"
     ;;
   *)
@@ -84,9 +80,3 @@ case "${behavior:-overwrite}" in
     exit
     ;;
 esac
-
-if
-  [[ -f ${HOME}/.bashrc ]]
-then
-  source ${HOME}/.bashrc
-fi

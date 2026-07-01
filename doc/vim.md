@@ -15,6 +15,8 @@ set wrap
 
 set encoding=utf-8
 set laststatus=2
+
+syntax on
 ```
 
 Vimにのみこの設定を適用する。Viにはこの設定を適用しない。
@@ -47,6 +49,12 @@ set encoding=utf-8
 set laststatus=2
 ```
 
+シンタックス・ハイライトを有効化する。
+
+``` vimscript
+syntax on
+```
+
 # Technical Document
 
 ## Table of Contents
@@ -62,6 +70,8 @@ set wrap
 
 set encoding=utf-8
 set laststatus=2
+
+syntax on
 ```
 
 Apply this configuration only to Vim. Do not apply this configuration to Vi.
@@ -92,4 +102,10 @@ Display status.
 
 ``` vimscript
 set laststatus=2
+```
+
+Enable syntax highlighting.
+
+``` vimscript
+syntax on
 ```

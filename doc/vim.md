@@ -35,6 +35,18 @@ set number
 set wrap
 ```
 
+UTF-8で文字をエンコードする。
+
+``` vimscript
+set encoding=utf-8
+```
+
+ステータスを表示する。
+
+``` vimscript
+set laststatus=2
+```
+
 # Technical Document
 
 ## Table of Contents
@@ -68,4 +80,16 @@ Wrap sentences at the screen width.
 
 ``` vimscript
 set wrap
+```
+
+Encode characters in UTF-8.
+
+``` vimscript
+set encoding=utf-8
+```
+
+Display status.
+
+``` vimscript
+set laststatus=2
 ```

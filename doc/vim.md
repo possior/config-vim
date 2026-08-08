@@ -24,7 +24,7 @@ Vimの前身となるテキスト編集器であるViとの互換性を無効化
 set nocompatible
 ```
 
-行番号を付す。
+各行の先頭にその行番号を表示する。
 
 ```vimscript
 set number
@@ -84,7 +84,7 @@ Disable compatibility with Vi, a text editor on which Vim bases. By disabling th
 set nocompatible
 ```
 
-Add line numbers.
+Precede each line with its line number.
 
 ```vimscript
 set number

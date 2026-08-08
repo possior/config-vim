@@ -33,7 +33,7 @@ set cursorline
 set nobackup
 ```
 
-Vimの前身となるテキスト編集器であるViとの互換性を無効化する。この設定を無効化することで、想定していない問題を未然に回避できる。なお、有効化する場合は`compatible`に設定する。
+Vimの前身となるテキスト編集器であるViとの互換性を無効化する。この設定を無効化することで、想定していない問題を未然に回避できる。
 
 ```vimscript
 set nocompatible
@@ -45,7 +45,7 @@ set nocompatible
 set number
 ```
 
-画面の幅より長い行を折り返して、残りを次の行に表示する。なお、無効化する場合は`nowrap`に設定する。
+画面の幅より長い行を折り返して、残りを次の行に表示する。
 
 ```vimscript
 set wrap
@@ -57,7 +57,7 @@ set wrap
 set encoding=utf-8
 ```
 
-常にステータス行を表示する。`0`で常に表示しない、`1`で2つ以上ウィンドウがあるときに表示する、`2`で常に表示する。
+常にステータス行を表示する。
 
 ```vimscript
 set laststatus=2
@@ -95,7 +95,7 @@ filetype indent on
 syntax enable
 ```
 
-構文ハイライトを有効化する。`on`でデフォルトの設定を強制的に有効化する、`enable`で設定されていない配色だけデフォルトの設定を有効化する。
+構文ハイライトを有効化する。
 
 ```vimscript
 syntax enable
@@ -134,7 +134,7 @@ Do not save backup files.
 set nobackup
 ```
 
-Disable compatibility with Vi, a text editor on which Vim bases. By disabling this configuration, you can avoid unexpected issues. To enable it, configure this setting to `compatible`.
+Disable compatibility with Vi, a text editor on which Vim bases. By disabling this configuration, you can avoid unexpected issues.
 
 ```vimscript
 set nocompatible
@@ -146,7 +146,7 @@ Precede each line with its line number.
 set number
 ```
 
-Wrap lines longer than the width of the window and display the rest on the next line. To disable it, configure this setting to `nowrap`.
+Wrap lines longer than the width of the window and display the rest on the next line.
 
 ```vimscript
 set wrap
@@ -158,7 +158,7 @@ Configure the character encoding to UTF-8.
 set encoding=utf-8
 ```
 
-Always display the status line. Set `0` to never display, `1` to display only if there are at least two windows, and `2` to always display.
+Always display the status line.
 
 ```vimscript
 set laststatus=2
@@ -202,7 +202,7 @@ filetype indent on
 syntax enable
 ```
 
-Enable syntax highlighting. Set `on` to forcibly enable the default configuration, and `enable` to only enable default configuration if you do not explicitly set.
+Enable syntax highlighting.
 
 ```vimscript
 syntax enable

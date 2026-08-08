@@ -19,7 +19,7 @@ set laststatus=2
 syntax on
 ```
 
-Vimにのみこの設定を適用する。Viにはこの設定を適用しない。
+Vimの前身となるテキスト編集器であるViとの互換性を無効化する。この設定を無効化することで、想定していない問題を未然に回避できる。
 
 ``` vimscript
 set nocompatible
@@ -74,7 +74,7 @@ set laststatus=2
 syntax on
 ```
 
-Apply this configuration only to Vim. Do not apply this configuration to Vi.
+Disable compatibility with Vi, a text editor on which Vim bases. By disabling this configuration, you can avoid unexpected issues.
 
 ``` vimscript
 set nocompatible

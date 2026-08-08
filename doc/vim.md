@@ -5,6 +5,7 @@
 ## 目次
 
 - [基本設定](#基本設定)
+- [構文設定](#構文設定)
 
 ## 基本設定
 
@@ -55,11 +56,14 @@ set laststatus=2
 syntax on
 ```
 
+## 構文設定
+
 # Technical Document
 
 ## Table of Contents
 
 - [Basic Settings](#basic-settings)
+- [Syntax Settings](#syntax-settings)
 
 ## Basic Settings
 
@@ -109,3 +113,5 @@ Enable syntax highlighting.
 ``` vimscript
 syntax on
 ```
+
+## Syntax Settings

@@ -51,6 +51,30 @@ set laststatus=2
 
 ## ファイル型設定
 
+```vimscript
+filetype on
+filetype plugin on
+filetype indent on
+```
+
+ファイル型を検出する。
+
+```vimscript
+filetype on
+```
+
+検出されたファイル型に応じてプラグインを読み込む。
+
+```vimscript
+filetype plugin on
+```
+
+検出されたファイル型に応じてインデントを読み込む。
+
+```vimscript
+filetype indent on
+```
+
 ## 構文設定
 
 ```vimscript
@@ -119,6 +143,30 @@ syntax enable
 ```
 
 ## Filetype Settings
+
+```vimscript
+filetype on
+filetype plugin on
+filetype indent on
+```
+
+Detect filetypes.
+
+```vimscript
+filetype on
+```
+
+Load plugins based on the detected filetype.
+
+```vimscript
+filetype plugin on
+```
+
+Load indents based on the detected filetype.
+
+```vimscript
+filetype indent on
+```
 
 ## Syntax Settings
 

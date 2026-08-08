@@ -5,6 +5,7 @@
 ## 目次
 
 - [基本設定](#基本設定)
+- [ファイル型設定](#ファイル型設定)
 - [構文設定](#構文設定)
 
 ## 基本設定
@@ -48,6 +49,8 @@ set encoding=utf-8
 set laststatus=2
 ```
 
+## ファイル型設定
+
 ## 構文設定
 
 ```vimscript
@@ -65,6 +68,7 @@ syntax enable
 ## Table of Contents
 
 - [Basic Settings](#basic-settings)
+- [Filetype Settings](#filetype-settings)
 - [Syntax Settings](#syntax-settings)
 
 ## Basic Settings
@@ -113,6 +117,8 @@ Enable syntax highlighting.
 ```vimscript
 syntax enable
 ```
+
+## Filetype Settings
 
 ## Syntax Settings
 

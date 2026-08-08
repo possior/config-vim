@@ -51,13 +51,13 @@ set laststatus=2
 ## 構文設定
 
 ```vimscript
-syntax on
+syntax enable
 ```
 
 構文ハイライトを有効化する。`on`でデフォルトの設定を強制的に有効化する、`enable`で設定されていない配色だけデフォルトの設定を有効化する。
 
 ```vimscript
-syntax on
+syntax enable
 ```
 
 # Technical Document
@@ -111,17 +111,17 @@ set laststatus=2
 Enable syntax highlighting.
 
 ```vimscript
-syntax on
+syntax enable
 ```
 
 ## Syntax Settings
 
 ```vimscript
-syntax on
+syntax enable
 ```
 
 Enable syntax highlighting. Set `on` to forcibly enable the default configuration, and `enable` to only enable default configuration if you do not explicitly set.
 
 ```vimscript
-syntax on
+syntax enable
 ```

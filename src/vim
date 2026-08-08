@@ -1,4 +1,5 @@
 set cursorline
+set nobackup
 set nocompatible
 set number
 set wrap

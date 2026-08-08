@@ -30,19 +30,19 @@ set nocompatible
 set number
 ```
 
-画面幅で文を折り返す。
+画面の幅より長い行を折り返して、残りを次の行に表示する。なお、無効化する場合は`nowrap`に設定する。
 
 ```vimscript
 set wrap
 ```
 
-UTF-8で文字をエンコードする。
+文字エンコードをUTF-8に設定する。
 
 ```vimscript
 set encoding=utf-8
 ```
 
-ステータスを表示する。
+常にステータス行を表示する。`0`で常に表示しない、`1`で2つ以上ウィンドウがあるときに表示する、`2`で常に表示する。
 
 ```vimscript
 set laststatus=2
@@ -90,19 +90,19 @@ Precede each line with its line number.
 set number
 ```
 
-Wrap sentences at the screen width.
+Wrap lines longer than the width of the window and display the rest on the next line. To disable it, configure this setting to `nowrap`.
 
 ```vimscript
 set wrap
 ```
 
-Encode characters in UTF-8.
+Configure the character encoding to UTF-8.
 
 ```vimscript
 set encoding=utf-8
 ```
 
-Display status.
+Always display the status line. Set `0` to never display, `1` to display only if there are at least two windows, and `2` to always display.
 
 ```vimscript
 set laststatus=2

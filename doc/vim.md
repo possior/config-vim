@@ -12,6 +12,7 @@
 
 ```vimscript
 set cursorline
+set nobackup
 set nocompatible
 set number
 set wrap
@@ -24,6 +25,12 @@ set laststatus=2
 
 ```vimscript
 set cursorline
+```
+
+バックアップファイルを保存しない。
+
+```vimscript
+set nobackup
 ```
 
 Vimの前身となるテキスト編集器であるViとの互換性を無効化する。この設定を無効化することで、想定していない問題を未然に回避できる。なお、有効化する場合は`compatible`に設定する。
@@ -106,6 +113,7 @@ syntax enable
 
 ```vimscript
 set cursorline
+set nobackup
 set nocompatible
 set number
 set wrap
@@ -118,6 +126,12 @@ Highlight the line the cursor exists.
 
 ```vimscript
 set cursorline
+```
+
+Do not save backup files.
+
+```vimscript
+set nobackup
 ```
 
 Disable compatibility with Vi, a text editor on which Vim bases. By disabling this configuration, you can avoid unexpected issues. To enable it, configure this setting to `compatible`.

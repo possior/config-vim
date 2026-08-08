@@ -11,12 +11,19 @@
 ## 基本設定
 
 ```vimscript
+set cursorline
 set nocompatible
 set number
 set wrap
 
 set encoding=utf-8
 set laststatus=2
+```
+
+カーソルがある行を強調表示する。
+
+```vimscript
+set cursorline
 ```
 
 Vimの前身となるテキスト編集器であるViとの互換性を無効化する。この設定を無効化することで、想定していない問題を未然に回避できる。なお、有効化する場合は`compatible`に設定する。
@@ -98,12 +105,19 @@ syntax enable
 ## Basic Settings
 
 ```vimscript
+set cursorline
 set nocompatible
 set number
 set wrap
 
 set encoding=utf-8
 set laststatus=2
+```
+
+Highlight the line the cursor exists.
+
+```vimscript
+set cursorline
 ```
 
 Disable compatibility with Vi, a text editor on which Vim bases. By disabling this configuration, you can avoid unexpected issues. To enable it, configure this setting to `compatible`.

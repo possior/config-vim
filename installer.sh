@@ -69,11 +69,19 @@ fi
 case "${behavior:-overwrite}" in
   "overwrite")
     overwriter "https://raw.githubusercontent.com/possior/config-vim/default/src/.vimrc"
+    overwriter "https://raw.githubusercontent.com/possior/config-vim/default/src/vim"
     echo ":: downloaded configuration files (overwrite)"
+    overwriter "https://raw.githubusercontent.com/possior/config-vim/default/doc/.vimrc.md"
+    overwriter "https://raw.githubusercontent.com/possior/config-vim/default/doc/vim.md"
+    echo ":: downloaded documentation files (overwrite)"
     ;;
   "preserve")
     preserver "https://raw.githubusercontent.com/possior/config-vim/default/src/.vimrc"
+    preserver "https://raw.githubusercontent.com/possior/config-vim/default/src/vim"
     echo ":: downloaded configuration files (preserve)"
+    preserver "https://raw.githubusercontent.com/possior/config-vim/default/doc/.vimrc.md"
+    preserver "https://raw.githubusercontent.com/possior/config-vim/default/doc/vim.md"
+    echo ":: downloaded documentation files (preserve)"
     ;;
   *)
     echo "!! failed downloadation due to unknown internal variable value"

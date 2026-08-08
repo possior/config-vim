@@ -9,54 +9,56 @@
 
 ## 基本設定
 
-``` vimscript
+```vimscript
 set nocompatible
 set number
 set wrap
 
 set encoding=utf-8
 set laststatus=2
-
-syntax on
 ```
 
 Vimの前身となるテキスト編集器であるViとの互換性を無効化する。この設定を無効化することで、想定していない問題を未然に回避できる。なお、有効化する場合は`compatible`に設定する。
 
-``` vimscript
+```vimscript
 set nocompatible
 ```
 
 行番号を付す。
 
-``` vimscript
+```vimscript
 set number
 ```
 
 画面幅で文を折り返す。
 
-``` vimscript
+```vimscript
 set wrap
 ```
 
 UTF-8で文字をエンコードする。
 
-``` vimscript
+```vimscript
 set encoding=utf-8
 ```
 
 ステータスを表示する。
 
-``` vimscript
+```vimscript
 set laststatus=2
+```
+
+## 構文設定
+
+```vimscript
+syntax on
 ```
 
 シンタックス・ハイライトを有効化する。
 
-``` vimscript
+```vimscript
 syntax on
 ```
-
-## 構文設定
 
 # Technical Document
 
@@ -67,51 +69,59 @@ syntax on
 
 ## Basic Settings
 
-``` vimscript
+```vimscript
 set nocompatible
 set number
 set wrap
 
 set encoding=utf-8
 set laststatus=2
-
-syntax on
 ```
 
 Disable compatibility with Vi, a text editor on which Vim bases. By disabling this configuration, you can avoid unexpected issues. To enable it, configure this setting to `compatible`.
 
-``` vimscript
+```vimscript
 set nocompatible
 ```
 
 Add line numbers.
 
-``` vimscript
+```vimscript
 set number
 ```
 
 Wrap sentences at the screen width.
 
-``` vimscript
+```vimscript
 set wrap
 ```
 
 Encode characters in UTF-8.
 
-``` vimscript
+```vimscript
 set encoding=utf-8
 ```
 
 Display status.
 
-``` vimscript
+```vimscript
 set laststatus=2
 ```
 
 Enable syntax highlighting.
 
-``` vimscript
+```vimscript
 syntax on
 ```
 
 ## Syntax Settings
+
+```vimscript
+syntax on
+```
+
+Enable syntax highlighting.
+
+```vimscript
+syntax on
+```

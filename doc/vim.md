@@ -4,9 +4,9 @@
 
 ## 目次
 
-- [基本構造](#基本構造)
+- [基本設定](#基本設定)
 
-## 基本構造
+## 基本設定
 
 ``` vimscript
 set nocompatible
@@ -59,9 +59,9 @@ syntax on
 
 ## Table of Contents
 
-- [Basic Structure](#basic-structure)
+- [Basic Settings](#basic-settings)
 
-## Basic Structure
+## Basic Settings
 
 ``` vimscript
 set nocompatible

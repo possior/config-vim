@@ -14,8 +14,7 @@
 
 | 版本号 | 統一資源位置指定子 |
 |:---:|:--- |
-| `01.01.01` | [リポジトリ](https://github.com/possior/config-vim/tree/ver.01.01.01/)、[リリー
-ス](https://github.com/possior/config-vim/releases/tag/ver.01.01.01/) |
+| `01.01.01` | [リポジトリ](https://github.com/possior/config-vim/tree/ver.01.01.01/)、[リリース](https://github.com/possior/config-vim/releases/tag/ver.01.01.01/) |
 
 # Vim Configuration
 

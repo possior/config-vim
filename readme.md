@@ -11,6 +11,12 @@
 
 ## 導入
 
+本リポジトリをGitで複製して`installer.sh`スクリプトを実行せよ。
+
+```Bash
+git clone https://github.com/possior/config-vim.git; ./config-vim/installer.sh; rm -rf config-vim
+```
+
 ## Vim説明書
 
 | 対象ファイル | 概要 |
@@ -40,6 +46,12 @@
 - [License](#license)
 
 ## Installation
+
+Clone this repository using Git, and execute the `installer.sh` script.
+
+```Bash
+git clone https://github.com/possior/config-vim.git; ./config-vim/installer.sh; rm -rf config-vim
+```
 
 ## Vim Documents
 

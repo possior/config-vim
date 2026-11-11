@@ -2,7 +2,6 @@ if filereadable(expand("options"))
     source options
 endif
 
-set nobackup
 set nocompatible
 set number
 set wrap

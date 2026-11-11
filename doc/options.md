@@ -2,6 +2,12 @@
 
 # Vim説明書
 
+以下のVimスクリプトは、ファイルを上書きする前にバックアップを作成する、`backup`（略：`bk`）及び`nobackup`（略：`nobk`）設定を設定する。
+
+```Vim
+set nobackup
+```
+
 以下のVimスクリプトは、Viとの互換性を保つ、`compatible`（略：`cp`）及び`nocompatible`（略：`nocp`）設定を設定する。
 
 ```Vim
@@ -39,6 +45,12 @@ set tabstop=4
 ```
 
 # Vim Document
+
+The Vim script below configures the setting `backup` (abbr. `bk`) and `nobackup` (abbr. `nobk`) that makes a backup before overwriting a file.
+
+```Vim
+set nobackup
+```
 
 The Vim script below configures the setting `compatible` (abbr. `cp`) and `nocompatible` (abbr. `nocp`) that keeps compatibility with Vi.
 

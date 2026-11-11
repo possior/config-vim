@@ -44,6 +44,12 @@ set softtabstop=4
 set tabstop=4
 ```
 
+以下のVimスクリプトは、ウィンドウ幅より長い行を折り返す、`wrap`及び`nowrap`設定を設定する。
+
+```Vim
+set wrap
+```
+
 # Vim Document
 
 The Vim script below configures the setting `backup` (abbr. `bk`) and `nobackup` (abbr. `nobk`) that makes a backup before overwriting a file.
@@ -86,6 +92,12 @@ The Vim script below configures the setting `tabstop` (abbr. `ts`) that defines 
 
 ```Vim
 set tabstop=4
+```
+
+The Vim script below configures the setting `wrap` and `nowrap` that wraps lines longer than the window width.
+
+```Vim
+set wrap
 ```
 
 <!-- CC0 1.0 UNIVERSAL. NO RIGHTS RESERVED. USE AT YOUR OWN RISK, NO WARRANTY. -->

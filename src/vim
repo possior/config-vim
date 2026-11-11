@@ -3,7 +3,6 @@ if filereadable(expand("options"))
 endif
 
 set number
-set wrap
 
 set encoding=utf-8
 set laststatus=2

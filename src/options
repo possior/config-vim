@@ -5,5 +5,6 @@ set expandtab
 set shiftwidth=4
 set softtabstop=4
 set tabstop=4
+set wrap
 
 " CC0 1.0 UNIVERSAL. NO RIGHTS RESERVED. USE AT YOUR OWN RISK, NO WARRANTY.

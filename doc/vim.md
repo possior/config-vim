@@ -11,6 +11,8 @@
 
 ## Options設定
 
+Vimの`options.txt`ドキュメントに対応する設定である。本レポジトリでは`options`設定ファイルに格納している。以下のVimスクリプトは、`options`が存在して読み込み可能であることを確認した後に、それをセッションに読み込む。
+
 ## 基本設定
 
 ```Vim
@@ -114,6 +116,8 @@ syntax enable
 - [Syntax Settings](#syntax-settings)
 
 ## Options Configuration
+
+This is the configuration that reflects the `options.txt` document of Vim. In this repository, the `options` configuration file contains that configuration. The Vim script below loads the file `options` into the session after checking if it exists and is readable.
 
 ## Basic Settings
 

@@ -10,6 +10,11 @@
 
 ## Vim説明書
 
+| 対象ファイル | 概要 |
+|:--- |:--- |
+| [`.vimrc`](./doc/.vimrc.md) | Vimの標準設定ファイル。 |
+| [`vim`](./doc/vim.md) | 各設定ファイルを参照してその設定を読み込む設定ファイル。 |
+
 ## 版本一覧
 
 | 版本号 | 統一資源位置指定子 |
@@ -25,6 +30,11 @@
 - [License (CC0 1.0 Universal)](./license.txt)
 
 ## Vim Documents
+
+| Target File | Description |
+|:--- |:--- |
+| [`.vimrc`](./doc/.vimrc.md) | Vim's default configuration file. |
+| [`vim`](./doc/vim.md) | Configuration file that references each configuration file and loads its configuration. |
 
 ## Version List
 

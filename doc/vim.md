@@ -1,6 +1,9 @@
-[日本語](#vim説明書)｜[English](#vim-document)｜[`vim`](../src/vim)
+[日本語](#vim説明書)｜[English](#vim-document)
 
 # Vim説明書
+
+- [`src/vim`](../src/vim)
+- [`src/options`](../src/options)
 
 ## 目次
 
@@ -113,6 +116,9 @@ syntax enable
 ```
 
 # Vim Document
+
+- [`src/vim`](../src/vim)
+- [`src/options`](../src/options)
 
 ## Table of Contents
 

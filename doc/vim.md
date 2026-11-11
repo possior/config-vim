@@ -24,7 +24,7 @@ else
 endif
 ```
 
-以下のVimスクリプトは、insertモードでタブを挿入する際に、適切な数のスペースを挿入するための、`expandtab`（略：`et`）及び`noexpandtab`（略：`noet`）設定を設定する。
+以下のVimスクリプトは、insertモードでタブ（ユニコード：`U+0009`）の代わりに適切な数のスペース（ユニコード：`U+0020`）を挿入するための、`expandtab`（略：`et`）及び`noexpandtab`（略：`noet`）設定を設定する。
 
 ```Vim
 set expandtab
@@ -35,6 +35,10 @@ set expandtab
 ```Vim
 set shiftwidth=4
 ```
+
+以下のVimスクリプトは、指定した列数ごとにソフトタブストップを設ける設定 `softtabstop`（省略形: `sts`）を構成します。
+
+The Vim script below configures the setting `softtabstop` (abbr. `sts`) that creates soft tab stops separated by the specified number of columns.
 
 以下のVimスクリプトは、水平タブ文字を表示する際の列幅の間隔を定義する、`tabstop`（略：`ts`）設定を設定する。
 
@@ -159,17 +163,19 @@ else
 endif
 ```
 
-The Vim script below configures the setting `expandtab` (abbr. `et`) and `noexpandtab` (abbr. `noet`) that inserts the appropriate number of spaces to insert a tab in the insert mode.
+The Vim script below configures the setting `expandtab` (abbr. `et`) and `noexpandtab` (abbr. `noet`) that inserts the appropriate number of spaces (unicode: `U+0020`) instead of a tab (unicode: `U+0009`) in the insert mode.
 
 ```Vim
 set expandtab
 ```
 
-The Vim script below configures the setting `shiftwidth` (abbr. `sw`) that defines the number of columns that make up one indentation.
+The Vim script below configures the setting `shiftwidth` (abbr. `sw`) that defines the width of one indentation.
 
 ```Vim
 set shiftwidth=4
 ```
+
+The Vim script below configures the setting `softtabstop` (abbr. `sts`) that creates soft tab stops separated by the specified number of columns.
 
 The Vim script below configures the setting `tabstop` (abbr. `ts`) that defines the column multiple used to display the horizontal tab character.
 

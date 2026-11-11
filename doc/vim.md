@@ -19,8 +19,6 @@ Vimの`options.txt`ドキュメントに対応する設定である。本レポ�
 ```Vim
 if filereadable(expand("options"))
     source options
-else
-    " デフォルト設定
 endif
 ```
 
@@ -160,8 +158,6 @@ This is the configuration that reflects the `options.txt` document of Vim. In th
 ```Vim
 if filereadable(expand("options"))
     source options
-else
-    " Default configuration
 endif
 ```
 

@@ -7,10 +7,13 @@
 
 ## 目次
 
+- [Builtin設定](#builtin設定)
 - [Options設定](#options設定)
 - [基本設定](#基本設定)
 - [ファイル型設定](#ファイル型設定)
 - [構文設定](#構文設定)
+
+## Builtin設定
 
 ## Options設定
 
@@ -134,10 +137,13 @@ syntax enable
 
 ## Table of Contents
 
+- [Builtin Configuration](#builtin-configuration)
 - [Options Configuration](#options-configuration)
 - [Basic Settings](#basic-settings)
 - [Filetype Settings](#filetype-settings)
 - [Syntax Settings](#syntax-settings)
+
+## Builtin Configuration
 
 ## Options Configuration
 

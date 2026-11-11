@@ -17,7 +17,7 @@
 | :---  | :---  |
 | [`.vimrc`](./doc/.vimrc.md) | Vimの標準設定ファイル。 |
 | [`vim`](./doc/vim.md) | 各設定ファイルを参照してその設定を読み込む設定。 |
-| [`options`](./doc/options.md) | `options.txt`公式文書に含まれる設定。 |
+| [`options`](./doc/options.md) | `options.txt`公式説明書に含まれる設定。 |
 
 ## 版本一覧
 

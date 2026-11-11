@@ -7,23 +7,10 @@
 
 ## 目次
 
-- [Builtin設定](#builtin設定)
 - [Options設定](#options設定)
 - [基本設定](#基本設定)
 - [ファイル型設定](#ファイル型設定)
 - [構文設定](#構文設定)
-
-## Builtin設定
-
-Vimの`builtin.txt`ドキュメントに対応する設定である。本レポジトリでは`builtin`設定ファイルに格納している。以下のVimスクリプトは、`builtin`が存在して読み込み可能であることを確認した後に、それをセッションに読み込む。
-
-```Vim
-if filereadable(expand("builtin"))
-    source builtin
-else
-    " デフォルト設定
-endif
-```
 
 ## Options設定
 
@@ -149,23 +136,10 @@ syntax enable
 
 ## Table of Contents
 
-- [Builtin Configuration](#builtin-configuration)
 - [Options Configuration](#options-configuration)
 - [Basic Settings](#basic-settings)
 - [Filetype Settings](#filetype-settings)
 - [Syntax Settings](#syntax-settings)
-
-## Builtin Configuration
-
-This is the configuration that reflects the `builtin.txt` document of Vim. In this repository, the `builtin` configuration file contains that configuration. The Vim script below loads the file `builtin` into the session after checking if it exists and is readable.
-
-```Vim
-if filereadable(expand("builtin"))
-    source builtin
-else
-    " Default configuration
-endif
-```
 
 ## Options Configuration
 

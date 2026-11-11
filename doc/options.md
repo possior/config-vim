@@ -20,6 +20,12 @@ set nocompatible
 set cursorline
 ```
 
+以下のVimスクリプトは、文字エンコードを定める、`encoding`（略：`enc`）設定を設定する。
+
+```Vim
+set encoding=utf-8
+```
+
 以下のVimスクリプトは、タブ（ユニコード：`U+0009`）の代わりに適切な数のスペース（ユニコード：`U+0020`）を挿入するための、`expandtab`（略：`et`）及び`noexpandtab`（略：`noet`）設定を設定する。
 
 ```Vim
@@ -68,6 +74,12 @@ The Vim script below configures the setting `cursorline` (abbr. `cul`) and `nocu
 
 ```Vim
 set cursorline
+```
+
+The Vim script below configures the setting `encoding` (abbr. `enc`) that sets the character encoding.
+
+```Vim
+set encoding=utf-8
 ```
 
 The Vim script below configures the setting `expandtab` (abbr. `et`) and `noexpandtab` (abbr. `noet`) that inserts the appropriate number of spaces (unicode: `U+0020`) instead of a tab (unicode: `U+0009`).

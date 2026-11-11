@@ -4,12 +4,12 @@
 
 ## 目次
 
-- [利用許諾（CC0）](./license.txt)
 - [バージョン情報](./version.md)
 - [Vimの設定を適用](#vimの設定を適用)
 - 技術文書
   - [`.vimrc`](./doc/.vimrc.md)
   - [`vim`](./doc/vim.md)
+- [利用許諾](./license.txt)
 
 ## Vimの設定を適用
 
@@ -26,12 +26,12 @@ curl -fsSL https://raw.githubusercontent.com/possior/config-vim/default/installe
 
 ## Table of Contents
 
-- [License (CC0)](./license.txt)
 - [Version Information](./version.md)
 - [Apply WezTerm Configuration](#apply-wezterm-configuration)
 - Techinical Documents
   - [`.vimrc`](./doc/.vimrc.md)
   - [`vim`](./doc/vim.md)
+- [License](./license.txt)
 
 ## Apply WezTerm Configuration
 

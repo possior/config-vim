@@ -11,10 +11,10 @@
 
 ## 導入
 
-本リポジトリをGitで複製して`installer.sh`スクリプトを実行せよ。
+本リポジトリをGitで複製して`installer.sh`スクリプトを実行すること。
 
 ```Bash
-git clone -vb default https://github.com/possior/config-vim.git; ./config-vim/installer.sh; rm -rf config-vim
+git clone -vb default https://github.com/possior/config-vim.git; ./config-vim/installer.sh -o; rm -rf config-vim
 ```
 
 ## Vim説明書
@@ -50,7 +50,7 @@ git clone -vb default https://github.com/possior/config-vim.git; ./config-vim/in
 Clone this repository using Git, and execute the `installer.sh` script.
 
 ```Bash
-git clone -vb default https://github.com/possior/config-vim.git; ./config-vim/installer.sh; rm -rf config-vim
+git clone -vb default https://github.com/possior/config-vim.git; ./config-vim/installer.sh -o; rm -vrf config-vim
 ```
 
 ## Vim Documents

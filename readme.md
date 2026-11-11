@@ -16,7 +16,8 @@
 | 対象ファイル | 概要 |
 | :---  | :---  |
 | [`.vimrc`](./doc/.vimrc.md) | Vimの標準設定ファイル。 |
-| [`vim`](./doc/vim.md) | 各設定ファイルを参照してその設定を読み込む設定ファイル。 |
+| [`vim`](./doc/vim.md) | 各設定ファイルを参照してその設定を読み込む設定。 |
+| [`options`](./doc/options.md) | `options.txt`公式文書に含まれる設定。 |
 
 ## 版本一覧
 
@@ -45,7 +46,8 @@
 | Target File | Description |
 | :---  | :--- |
 | [`.vimrc`](./doc/.vimrc.md) | Vim's default configuration file. |
-| [`vim`](./doc/vim.md) | Configuration file that references each configuration file and loads its configuration. |
+| [`vim`](./doc/vim.md) | Configuration that references each configuration file and loads its configuration. |
+| [`options`](./doc/options.md) | Configuration included in the official document `options.txt`. |
 
 ## Version List
 

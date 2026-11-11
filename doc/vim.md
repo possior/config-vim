@@ -152,7 +152,7 @@ syntax enable
 
 ## Options Configuration
 
-This is the configuration that reflects the `options.txt` document of Vim. In this repository, the `options` configuration file contains that configuration. The Vim script below loads the file `options` into the session after checking if it exists and is readable.
+This is the configuration included in the `options.txt` document of Vim. In this repository, the `options` configuration file contains that configuration. The Vim script below loads the file `options` into the session after checking if it exists and is readable.
 
 ```Vim
 if filereadable(expand("options"))

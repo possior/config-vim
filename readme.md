@@ -28,6 +28,6 @@
 
 ## Version List
 
-| Version | Uniform Resource Locator |
+| Version Number | Uniform Resource Locator |
 |:---:|:--- |
 | `01.01.01` | [repository](https://github.com/possior/config-vim/tree/ver.01.01.01/)、[release](https://github.com/possior/config-vim/releases/tag/ver.01.01.01/) |

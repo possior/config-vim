@@ -7,7 +7,7 @@
 - 技術文書
   - [`.vimrc`](./doc/.vimrc.md)
   - [`vim`](./doc/vim.md)
-- [バージョン](#バージョン)
+- [版本号](#版本号)
 - [利用許諾（CC0 1.0 Universal）](./license.txt)
 
 ## バージョン

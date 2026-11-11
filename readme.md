@@ -52,7 +52,7 @@
 | Version Number | Uniform Resource Locator |
 | :---: | :---  |
 | `01.02` | [repository](), [release]()
-| `01.01` | [repository](https://github.com/possior/config-vim/tree/ver.01.01.01/)、[release](https://github.com/possior/config-vim/releases/tag/ver.01.01.01/) |
+| `01.01` | [repository](https://github.com/possior/config-vim/tree/ver.01.01.01/), [release](https://github.com/possior/config-vim/releases/tag/ver.01.01.01/) |
 
 ## License
 

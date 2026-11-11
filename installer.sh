@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -euo pipefail
+set -eo pipefail
 
 while [[ "$#" -gt 0 ]]
 do
@@ -51,8 +51,10 @@ mkdir -p "$td"
 for (( i=0; i<"$n"; i++ ))
 do
   if [[ "$mode" == o ]]
+  then
     cp "${files[i]}" "${dests[i]}"
   elif [[ "$mode" == p ]]
+  then
     [[ ! -f "${dests[i]}" ]] && cp "${files[i]}" "${dests[i]}"
   fi
 done

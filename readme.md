@@ -7,10 +7,10 @@
 - 技術文書
   - [`.vimrc`](./doc/.vimrc.md)
   - [`vim`](./doc/vim.md)
-- [版本号](#版本号)
+- [版本一覧](#版本一覧)
 - [利用許諾（CC0 1.0 Universal）](./license.txt)
 
-## バージョン
+## 版本一覧
 
 | 版本号 | 統一資源位置指定子 |
 |:---:|:--- |
@@ -24,10 +24,10 @@
 - Techinical Documents
   - [`.vimrc`](./doc/.vimrc.md)
   - [`vim`](./doc/vim.md)
-- [Versions](#versions)
+- [Version List](#version-list)
 - [License (CC0 1.0 Universal)](./license.txt)
 
-## Versions
+## Version List
 
 | Version | Uniform Resource Locator |
 |:---:|:--- |

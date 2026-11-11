@@ -55,3 +55,5 @@
 ## License
 
 [CC0 1.0 Universal](./license.txt). No rights reserved. Use at your own risk, no warranty.
+
+<!-- CC0 1.0 UNIVERSAL. NO RIGHTS RESERVED. USE AT YOUR OWN RISK, NO WARRANTY. -->

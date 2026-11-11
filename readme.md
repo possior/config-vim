@@ -9,7 +9,7 @@
 - 技術文書
   - [`.vimrc`](./doc/.vimrc.md)
   - [`vim`](./doc/vim.md)
-- [利用許諾](./license.txt)
+- [利用許諾（CC0 1.0 Universal）](./license.txt)
 
 ## Vimの設定を適用
 
@@ -31,7 +31,7 @@ curl -fsSL https://raw.githubusercontent.com/possior/config-vim/default/installe
 - Techinical Documents
   - [`.vimrc`](./doc/.vimrc.md)
   - [`vim`](./doc/vim.md)
-- [License](./license.txt)
+- [License (CC0 1.0 Universal)](./license.txt)
 
 ## Apply WezTerm Configuration
 

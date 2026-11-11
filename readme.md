@@ -4,11 +4,11 @@
 
 ## 目次
 
-- Vim説明書
-  - [`.vimrc`](./doc/.vimrc.md)
-  - [`vim`](./doc/vim.md)
+- [Vim説明書](#vim説明書)
 - [版本一覧](#版本一覧)
 - [利用許諾（CC0 1.0 Universal）](./license.txt)
+
+## Vim説明書
 
 ## 版本一覧
 
@@ -20,11 +20,11 @@
 
 ## Table of Contents
 
-- Vim Documents
-  - [`.vimrc`](./doc/.vimrc.md)
-  - [`vim`](./doc/vim.md)
+- [Vim Documents](#vim-documents)
 - [Version List](#version-list)
 - [License (CC0 1.0 Universal)](./license.txt)
+
+## Vim Documents
 
 ## Version List
 

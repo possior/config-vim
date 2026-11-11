@@ -32,6 +32,10 @@ set expandtab
 
 以下のVimスクリプトは、1段分のインデントを構成する列幅の数を定義する、`shiftwidth`（略：`sw`）設定を設定する。
 
+```Vim
+set shiftwidth=4
+```
+
 以下のVimスクリプトは、水平タブ文字を表示する際の列幅の間隔を定義する、`tabstop`（略：`ts`）設定を設定する。
 
 ```Vim
@@ -162,6 +166,10 @@ set expandtab
 ```
 
 The Vim script below configures the setting `shiftwidth` (abbr. `sw`) that defines the number of columns that make up one indentation.
+
+```Vim
+set shiftwidth=4
+```
 
 The Vim script below configures the setting `tabstop` (abbr. `ts`) that defines the column multiple used to display the horizontal tab character.
 

@@ -4,7 +4,7 @@
 
 ## 目次
 
-- 技術文書
+- Vim説明書
   - [`.vimrc`](./doc/.vimrc.md)
   - [`vim`](./doc/vim.md)
 - [版本一覧](#版本一覧)
@@ -20,7 +20,7 @@
 
 ## Table of Contents
 
-- Techinical Documents
+- Vim Documents
   - [`.vimrc`](./doc/.vimrc.md)
   - [`vim`](./doc/vim.md)
 - [Version List](#version-list)

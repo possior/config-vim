@@ -50,7 +50,7 @@ git clone -vb default https://github.com/possior/config-vim.git; ./config-vim/in
 Clone this repository using Git, and execute the `installer.sh` script. On the options of `git clone`, replace `default` with a name of your desired branch or tag. On the falg of `installer.sh`, specify `-o` or `--overwrite` when overwriting the configuration files or `-p` or `--preserve` when not. This script overwrites them by default.
 
 ```Bash
-git clone -vb default https://github.com/possior/config-vim.git; ./config-vim/installer.sh -o; rm -vrf config-vim
+git clone -vb default https://github.com/possior/config-vim.git; ./config-vim/installer.sh; rm -vrf config-vim
 ```
 
 ## Vim Documents

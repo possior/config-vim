@@ -1,3 +1,8 @@
+if filereadable(expand("builtin"))
+    source builtin
+else
+endif
+
 if filereadable(expand("options"))
     source options
 else

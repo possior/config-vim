@@ -6,7 +6,7 @@
 
 - [Vim説明書](#vim説明書)
 - [版本一覧](#版本一覧)
-- [利用許諾（CC0 1.0 Universal）](./license.txt)
+- [利用許諾](#利用許諾)
 
 ## Vim説明書
 
@@ -31,7 +31,7 @@ CC0 1.0 Universal。全権留保せず。自己責任で使用せよ、保証な
 
 - [Vim Documents](#vim-documents)
 - [Version List](#version-list)
-- [License (CC0 1.0 Universal)](./license.txt)
+- [License](#license)
 
 ## Vim Documents
 

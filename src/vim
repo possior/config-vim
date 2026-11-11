@@ -1,13 +1,9 @@
-" Options Configuration
-
-set expandtab
-set tabstop=4
-
 if filereadable(expand("options"))
     source options
+else
+    set expandtab
+    set tabstop=4
 endif
-
-"
 
 set cursorline
 set nobackup

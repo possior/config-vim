@@ -24,23 +24,21 @@ else
 endif
 ```
 
-以下のVimスクリプトは、insertモードでタブ（ユニコード：`U+0009`）の代わりに適切な数のスペース（ユニコード：`U+0020`）を挿入するための、`expandtab`（略：`et`）及び`noexpandtab`（略：`noet`）設定を設定する。
+以下のVimスクリプトは、タブ（ユニコード：`U+0009`）の代わりに適切な数のスペース（ユニコード：`U+0020`）を挿入するための、`expandtab`（略：`et`）及び`noexpandtab`（略：`noet`）設定を設定する。
 
 ```Vim
 set expandtab
 ```
 
-以下のVimスクリプトは、1段分のインデントを構成する列幅の数を定義する、`shiftwidth`（略：`sw`）設定を設定する。
+以下のVimスクリプトは、インデントの幅を定義する、`shiftwidth`（略：`sw`）設定を設定する。
 
 ```Vim
 set shiftwidth=4
 ```
 
-以下のVimスクリプトは、指定した列数ごとにソフトタブストップを設ける設定 `softtabstop`（省略形: `sts`）を構成します。
+以下のVimスクリプトは、タブやバックスペースのキーを入力した際にカーソルが移動する表示幅を定義する、 `softtabstop`（省略形: `sts`）設定を設定する。
 
-The Vim script below configures the setting `softtabstop` (abbr. `sts`) that creates soft tab stops separated by the specified number of columns.
-
-以下のVimスクリプトは、水平タブ文字を表示する際の列幅の間隔を定義する、`tabstop`（略：`ts`）設定を設定する。
+以下のVimスクリプトは、タブ（ユニコード：`U+0009`）の表示幅を定義する、`tabstop`（略：`ts`）設定を設定する。
 
 ```Vim
 set tabstop=4
@@ -163,21 +161,21 @@ else
 endif
 ```
 
-The Vim script below configures the setting `expandtab` (abbr. `et`) and `noexpandtab` (abbr. `noet`) that inserts the appropriate number of spaces (unicode: `U+0020`) instead of a tab (unicode: `U+0009`) in the insert mode.
+The Vim script below configures the setting `expandtab` (abbr. `et`) and `noexpandtab` (abbr. `noet`) that inserts the appropriate number of spaces (unicode: `U+0020`) instead of a tab (unicode: `U+0009`).
 
 ```Vim
 set expandtab
 ```
 
-The Vim script below configures the setting `shiftwidth` (abbr. `sw`) that defines the width of one indentation.
+The Vim script below configures the setting `shiftwidth` (abbr. `sw`) that defines the width of one indent.
 
 ```Vim
 set shiftwidth=4
 ```
 
-The Vim script below configures the setting `softtabstop` (abbr. `sts`) that creates soft tab stops separated by the specified number of columns.
+The Vim script below configures the setting `softtabstop` (abbr. `sts`) that defines the display width a cursor moves when inputting the tab or backspace key.
 
-The Vim script below configures the setting `tabstop` (abbr. `ts`) that defines the column multiple used to display the horizontal tab character.
+The Vim script below configures the setting `tabstop` (abbr. `ts`) that defines the display width of one tab (unicode: `U+0009`).
 
 ```Vim
 set tabstop=4

@@ -32,6 +32,12 @@ set encoding=utf-8
 set expandtab
 ```
 
+以下のVimスクリプトは、最終ウィンドウにステータス・バーを表示する、`laststatus`（略：`ls`）設定を設定する。
+
+```Vim
+set laststatus=2
+```
+
 以下のVimスクリプトは、インデントの幅を定義する、`shiftwidth`（略：`sw`）設定を設定する。
 
 ```Vim
@@ -86,6 +92,12 @@ The Vim script below configures the setting `expandtab` (abbr. `et`) and `noexpa
 
 ```Vim
 set expandtab
+```
+
+The Vim script below configures the setting `laststatus` (abbr. `ls`) that displays a status bar on the last window.
+
+```Vim
+set laststatus=2
 ```
 
 The Vim script below configures the setting `shiftwidth` (abbr. `sw`) that defines the width of one indent.

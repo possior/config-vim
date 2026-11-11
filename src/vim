@@ -4,7 +4,6 @@ endif
 
 set number
 
-set laststatus=2
 
 filetype on
 filetype plugin on

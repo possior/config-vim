@@ -4,9 +4,12 @@
 
 ## 目次
 
+- [導入](#導入)
 - [Vim説明書](#vim説明書)
 - [版本一覧](#版本一覧)
 - [利用許諾](#利用許諾)
+
+## 導入
 
 ## Vim説明書
 
@@ -29,9 +32,12 @@
 
 ## Table of Contents
 
+- [Installation](#installation)
 - [Vim Documents](#vim-documents)
 - [Version List](#version-list)
 - [License](#license)
+
+## Installation
 
 ## Vim Documents
 

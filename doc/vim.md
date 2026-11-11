@@ -28,6 +28,8 @@ endif
 set expandtab
 ```
 
+以下のVimスクリプトは、水平タブ文字を表示する際の列幅の間隔を定義する、`tabstop`（略：`ts`）設定を設定する。
+
 ## 基本設定
 
 ```Vim
@@ -148,6 +150,8 @@ The Vim script below configures the setting `expandtab` (abbr. `et`) and `noexpa
 ```Vim
 set expandtab
 ```
+
+The Vim script below configures the setting `tabstop` (abbr. `ts`) that defines the column multiple used to display the horizontal tab character.
 
 ## Basic Settings
 

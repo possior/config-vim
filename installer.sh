@@ -25,4 +25,11 @@ dests=(
   "$td/readme.md"
 )
 
+[[ "${#files[@]}" == "${#dests[@]}" ]] && n="${#files[@]}" || exit
+
+for (( i=0; i<"$n"; i++ ))
+do
+  cp "${files[i]}" "${dests[i]}"
+done
+
 # CC0 1.0 UNIVERSAL. NO RIGHTS RESERVED. USE AT YOUR OWN RISK, NO WARRANTY.

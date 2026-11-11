@@ -1,6 +1,23 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+while [[ "$#" -gt 0 ]]
+do
+  case "$1" in
+    -o|--overwrite)
+      [[ -z "$mode" ]] && mode=o || exit
+      shift 1
+      ;;
+    -p|--preserve)
+      [[ -z "$mode" ]] && mode=p || exit
+      shift 1
+      ;;
+    *)
+      shift 1
+      ;;
+  esac
+done
+
 wd="$(dirname "${GIT_SOURCE[0]}")"
 td="$HOME/.config/vim"
 
@@ -27,11 +44,17 @@ dests=(
 
 [[ "${#files[@]}" == "${#dests[@]}" ]] && n="${#files[@]}" || exit
 
+[[ -z "$mode" ]] && mode=o || exit
+
 mkdir -p "$td"
 
 for (( i=0; i<"$n"; i++ ))
 do
-  cp "${files[i]}" "${dests[i]}"
+  if [[ "$mode" == o ]]
+    cp "${files[i]}" "${dests[i]}"
+  elif [[ "$mode" == p ]]
+    [[ ! -f "${dests[i]}" ]] && cp "${files[i]}" "${dests[i]}"
+  fi
 done
 
 # CC0 1.0 UNIVERSAL. NO RIGHTS RESERVED. USE AT YOUR OWN RISK, NO WARRANTY.

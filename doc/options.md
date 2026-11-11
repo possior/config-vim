@@ -2,8 +2,4 @@
 
 # Vim説明書
 
-## 目次
-
 # Vim Document
-
-# Table of Contents

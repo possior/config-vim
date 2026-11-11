@@ -1,6 +1,6 @@
-[日本語](#技術文書)｜[English](#technical-document)｜[`vim`](../src/vim)
+[日本語](#vim説明書)｜[English](#vim-document)｜[`vim`](../src/vim)
 
-# 技術文書
+# Vim説明書
 
 ## 目次
 
@@ -101,7 +101,7 @@ syntax enable
 syntax enable
 ```
 
-# Technical Document
+# Vim Document
 
 ## Table of Contents
 

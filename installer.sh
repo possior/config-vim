@@ -27,6 +27,8 @@ dests=(
 
 [[ "${#files[@]}" == "${#dests[@]}" ]] && n="${#files[@]}" || exit
 
+mkdir -p "$td"
+
 for (( i=0; i<"$n"; i++ ))
 do
   cp "${files[i]}" "${dests[i]}"

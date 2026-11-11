@@ -1,6 +1,6 @@
-[日本語](#vimの設定)｜[English](#vim-configuration)
+[日本語](#vim設定)｜[English](#vim-configuration)
 
-# Vimの設定
+# Vim設定
 
 ## 目次
 

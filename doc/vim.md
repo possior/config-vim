@@ -10,7 +10,7 @@
 
 ## 基本設定
 
-```vimscript
+```Vimscript
 set cursorline
 set nobackup
 set nocompatible
@@ -23,49 +23,49 @@ set laststatus=2
 
 カーソルがある行を強調表示する。
 
-```vimscript
+```Vimscript
 set cursorline
 ```
 
 バックアップファイルを保存しない。
 
-```vimscript
+```Vimscript
 set nobackup
 ```
 
 Vimの前身となるテキスト編集器であるViとの互換性を無効化する。この設定を無効化することで、想定していない問題を未然に回避できる。
 
-```vimscript
+```Vimscript
 set nocompatible
 ```
 
 各行の先頭にその行番号を表示する。
 
-```vimscript
+```Vimscript
 set number
 ```
 
 画面の幅より長い行を折り返して、残りを次の行に表示する。
 
-```vimscript
+```Vimscript
 set wrap
 ```
 
 文字エンコードをUTF-8に設定する。
 
-```vimscript
+```Vimscript
 set encoding=utf-8
 ```
 
 常にステータス行を表示する。
 
-```vimscript
+```Vimscript
 set laststatus=2
 ```
 
 ## ファイル型設定
 
-```vimscript
+```Vimscript
 filetype on
 filetype plugin on
 filetype indent on
@@ -73,31 +73,31 @@ filetype indent on
 
 ファイル型を検出する。
 
-```vimscript
+```Vimscript
 filetype on
 ```
 
 検出されたファイル型に応じてプラグインを読み込む。
 
-```vimscript
+```Vimscript
 filetype plugin on
 ```
 
 検出されたファイル型に応じてインデントを読み込む。
 
-```vimscript
+```Vimscript
 filetype indent on
 ```
 
 ## 構文設定
 
-```vimscript
+```Vimscript
 syntax enable
 ```
 
 構文ハイライトを有効化する。
 
-```vimscript
+```Vimscript
 syntax enable
 ```
 
@@ -111,7 +111,7 @@ syntax enable
 
 ## Basic Settings
 
-```vimscript
+```Vimscript
 set cursorline
 set nobackup
 set nocompatible
@@ -124,55 +124,55 @@ set laststatus=2
 
 Highlight the line the cursor exists.
 
-```vimscript
+```Vimscript
 set cursorline
 ```
 
 Do not save backup files.
 
-```vimscript
+```Vimscript
 set nobackup
 ```
 
 Disable compatibility with Vi, a text editor on which Vim bases. By disabling this configuration, you can avoid unexpected issues.
 
-```vimscript
+```Vimscript
 set nocompatible
 ```
 
 Precede each line with its line number.
 
-```vimscript
+```Vimscript
 set number
 ```
 
 Wrap lines longer than the width of the window and display the rest on the next line.
 
-```vimscript
+```Vimscript
 set wrap
 ```
 
 Configure the character encoding to UTF-8.
 
-```vimscript
+```Vimscript
 set encoding=utf-8
 ```
 
 Always display the status line.
 
-```vimscript
+```Vimscript
 set laststatus=2
 ```
 
 Enable syntax highlighting.
 
-```vimscript
+```Vimscript
 syntax enable
 ```
 
 ## Filetype Settings
 
-```vimscript
+```Vimscript
 filetype on
 filetype plugin on
 filetype indent on
@@ -180,30 +180,30 @@ filetype indent on
 
 Detect filetypes.
 
-```vimscript
+```Vimscript
 filetype on
 ```
 
 Load plugins based on the detected filetype.
 
-```vimscript
+```Vimscript
 filetype plugin on
 ```
 
 Load indents based on the detected filetype.
 
-```vimscript
+```Vimscript
 filetype indent on
 ```
 
 ## Syntax Settings
 
-```vimscript
+```Vimscript
 syntax enable
 ```
 
 Enable syntax highlighting.
 
-```vimscript
+```Vimscript
 syntax enable
 ```

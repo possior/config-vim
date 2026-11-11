@@ -21,6 +21,10 @@
 | :---: | :---  |
 | `01.01.01` | [リポジトリ](https://github.com/possior/config-vim/tree/ver.01.01.01/)、[リリース](https://github.com/possior/config-vim/releases/tag/ver.01.01.01/) |
 
+## 利用許諾
+
+CC0 1.0 Universal。全権留保せず。自己責任で使用せよ、保証なし。
+
 # Vim Configuration
 
 ## Table of Contents
@@ -41,3 +45,7 @@
 | Version Number | Uniform Resource Locator |
 | :---: | :---  |
 | `01.01.01` | [repository](https://github.com/possior/config-vim/tree/ver.01.01.01/)、[release](https://github.com/possior/config-vim/releases/tag/ver.01.01.01/) |
+
+## License
+
+CC0 1.0 Universal. No rights reserved. Use at your own risk, no warranty.

@@ -14,7 +14,7 @@
 本リポジトリをGitで複製して`installer.sh`スクリプトを実行すること。`git clone`のオプションについて、`default`は希望するブランチ名やタグ名に置き換えること。`installer.sh`のフラッグについて、設定ファイルを上書き保存する場合は`-o`または`--overwrite`を、しない場合は`-p`または`--preserve`を指定すること。このスクリプトは標準では上書きする。
 
 ```Bash
-git clone -vb default https://github.com/possior/config-vim.git; ./config-vim/installer.sh; rm -rf config-vim
+git clone -vb default https://github.com/possior/config-vim.git; ./config-vim/installer.sh; rm -vrf config-vim
 ```
 
 ## Vim説明書
@@ -29,7 +29,7 @@ git clone -vb default https://github.com/possior/config-vim.git; ./config-vim/in
 
 | 版本号 | 統一資源位置指定子 |
 | :---: | :---  |
-| `01.02` | [リポジトリ]()、[リリース]() |
+| `01.02` | [リポジトリ](https://github.com/possior/config-vim/tree/ver.01.02.01/)、[リリース](https://github.com/possior/config-vim/releases/tag/ver.01.02.01/) |
 | `01.01` | [リポジトリ](https://github.com/possior/config-vim/tree/ver.01.01.01/)、[リリース](https://github.com/possior/config-vim/releases/tag/ver.01.01.01/) |
 
 ## 利用許諾
@@ -65,7 +65,7 @@ git clone -vb default https://github.com/possior/config-vim.git; ./config-vim/in
 
 | Version Number | Uniform Resource Locator |
 | :---: | :---  |
-| `01.02` | [repository](), [release]()
+| `01.02` | [repository](https://github.com/possior/config-vim/tree/ver.01.02.01/), [release](https://github.com/possior/config-vim/releases/tag/ver.01.02.01/)
 | `01.01` | [repository](https://github.com/possior/config-vim/tree/ver.01.01.01/), [release](https://github.com/possior/config-vim/releases/tag/ver.01.01.01/) |
 
 ## License

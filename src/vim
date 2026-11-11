@@ -1,3 +1,7 @@
+if filereadable(expand("options"))
+    source options
+endif
+
 set cursorline
 set nobackup
 set nocompatible

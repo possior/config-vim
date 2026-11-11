@@ -2,6 +2,7 @@ if filereadable(expand("options"))
     source options
 else
     set expandtab
+    set shiftwidth=4
     set tabstop=4
 endif
 

@@ -10,6 +10,10 @@ set nocompatible
 
 以下のVimスクリプトは、カーソルがある行のハイライトに関する、`cursorline`（略：`cul`）及び`nocursorline`（略：`nocul`）設定を設定する。
 
+```Vim
+set cursorline
+```
+
 以下のVimスクリプトは、タブ（ユニコード：`U+0009`）の代わりに適切な数のスペース（ユニコード：`U+0020`）を挿入するための、`expandtab`（略：`et`）及び`noexpandtab`（略：`noet`）設定を設定する。
 
 ```Vim
@@ -43,6 +47,10 @@ set nocompatible
 ```
 
 The Vim script below configures the setting `cursorline` (abbr. `cul`) and `nocursorline` (abbr. `nocul`) of highlighting used for the line the cursor is on.
+
+```Vim
+set cursorline
+```
 
 The Vim script below configures the setting `expandtab` (abbr. `et`) and `noexpandtab` (abbr. `noet`) that inserts the appropriate number of spaces (unicode: `U+0020`) instead of a tab (unicode: `U+0009`).
 

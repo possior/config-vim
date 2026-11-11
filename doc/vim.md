@@ -22,6 +22,8 @@ if filereadable(expand("options"))
 endif
 ```
 
+以下のVimスクリプトは、insertモードでタブを挿入する際に、適切な数のスペースを挿入するための、`expandtab`（略：`et`）及び`noexpandtab`（略：`noet`）設定を設定する。
+
 ## 基本設定
 
 ```Vim
@@ -136,6 +138,8 @@ if filereadable(expand("options"))
     source options
 endif
 ```
+
+The Vim script below configures the setting `expandtab` (abbr. `et`) and `noexpandtab` (abbr. `noet`) that inserts the appropriate number of spaces to insert a tab in the insert mode.
 
 ## Basic Settings
 

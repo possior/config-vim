@@ -7,8 +7,10 @@
 - 技術文書
   - [`.vimrc`](./doc/.vimrc.md)
   - [`vim`](./doc/vim.md)
-- [バージョン](./version.md)
+- [バージョン](#バージョン)
 - [利用許諾（CC0 1.0 Universal）](./license.txt)
+
+## バージョン
 
 # Vim Configuration
 
@@ -17,5 +19,7 @@
 - Techinical Documents
   - [`.vimrc`](./doc/.vimrc.md)
   - [`vim`](./doc/vim.md)
-- [Versions](./version.md)
+- [Versions](#versions)
 - [License (CC0 1.0 Universal)](./license.txt)
+
+## Versions

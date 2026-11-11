@@ -4,7 +4,6 @@ endif
 
 set number
 
-set encoding=utf-8
 set laststatus=2
 
 filetype on

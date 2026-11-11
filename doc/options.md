@@ -2,19 +2,19 @@
 
 # Vim説明書
 
-以下のVimスクリプトは、ファイルを上書きする前にバックアップを作成する、`backup`（略：`bk`）及び`nobackup`（略：`nobk`）設定を設定する。
+以下のVimスクリプトは、ファイルを上書きする前にバックアップを作成する、`backup`（略：`bk`）設定を設定する。
 
 ```Vim
 set nobackup
 ```
 
-以下のVimスクリプトは、Viとの互換性を保つ、`compatible`（略：`cp`）及び`nocompatible`（略：`nocp`）設定を設定する。
+以下のVimスクリプトは、Viとの互換性を保つ、`compatible`（略：`cp`）設定を設定する。
 
 ```Vim
 set nocompatible
 ```
 
-以下のVimスクリプトは、カーソルがある行のハイライトに関する、`cursorline`（略：`cul`）及び`nocursorline`（略：`nocul`）設定を設定する。
+以下のVimスクリプトは、カーソルがある行のハイライトに関する、`cursorline`（略：`cul`）設定を設定する。
 
 ```Vim
 set cursorline
@@ -26,7 +26,7 @@ set cursorline
 set encoding=utf-8
 ```
 
-以下のVimスクリプトは、タブ（ユニコード：`U+0009`）の代わりに適切な数のスペース（ユニコード：`U+0020`）を挿入するための、`expandtab`（略：`et`）及び`noexpandtab`（略：`noet`）設定を設定する。
+以下のVimスクリプトは、タブ（ユニコード：`U+0009`）の代わりに適切な数のスペース（ユニコード：`U+0020`）を挿入するための、`expandtab`（略：`et`）設定を設定する。
 
 ```Vim
 set expandtab
@@ -56,7 +56,7 @@ set softtabstop=4
 set tabstop=4
 ```
 
-以下のVimスクリプトは、ウィンドウ幅より長い行を折り返す、`wrap`及び`nowrap`設定を設定する。
+以下のVimスクリプトは、ウィンドウ幅より長い行を折り返す、`wrap`設定を設定する。
 
 ```Vim
 set wrap
@@ -64,19 +64,19 @@ set wrap
 
 # Vim Document
 
-The Vim script below configures the setting `backup` (abbr. `bk`) and `nobackup` (abbr. `nobk`) that makes a backup before overwriting a file.
+The Vim script below configures the setting `backup` (abbr. `bk`) that makes a backup before overwriting a file.
 
 ```Vim
 set nobackup
 ```
 
-The Vim script below configures the setting `compatible` (abbr. `cp`) and `nocompatible` (abbr. `nocp`) that keeps compatibility with Vi.
+The Vim script below configures the setting `compatible` (abbr. `cp`) that keeps compatibility with Vi.
 
 ```Vim
 set nocompatible
 ```
 
-The Vim script below configures the setting `cursorline` (abbr. `cul`) and `nocursorline` (abbr. `nocul`) of highlighting used for the line the cursor is on.
+The Vim script below configures the setting `cursorline` (abbr. `cul`) of highlighting used for the line the cursor is on.
 
 ```Vim
 set cursorline
@@ -88,7 +88,7 @@ The Vim script below configures the setting `encoding` (abbr. `enc`) that sets t
 set encoding=utf-8
 ```
 
-The Vim script below configures the setting `expandtab` (abbr. `et`) and `noexpandtab` (abbr. `noet`) that inserts the appropriate number of spaces (unicode: `U+0020`) instead of a tab (unicode: `U+0009`).
+The Vim script below configures the setting `expandtab` (abbr. `et`) that inserts the appropriate number of spaces (unicode: `U+0020`) instead of a tab (unicode: `U+0009`).
 
 ```Vim
 set expandtab
@@ -118,7 +118,7 @@ The Vim script below configures the setting `tabstop` (abbr. `ts`) that defines 
 set tabstop=4
 ```
 
-The Vim script below configures the setting `wrap` and `nowrap` that wraps lines longer than the window width.
+The Vim script below configures the setting `wrap` that wraps lines longer than the window width.
 
 ```Vim
 set wrap

@@ -63,3 +63,5 @@ The Vim script below configures the setting `tabstop` (abbr. `ts`) that defines 
 ```Vim
 set tabstop=4
 ```
+
+<!-- CC0 1.0 UNIVERSAL. NO RIGHTS RESERVED. USE AT YOUR OWN RISK, NO WARRANTY. -->

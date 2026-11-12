@@ -1,3 +1,7 @@
+if filereadable(expand("filetype"))
+    source filetype
+endif
+
 if filereadable(expand("options"))
     source options
 endif

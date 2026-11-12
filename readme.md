@@ -63,7 +63,7 @@ git clone -vb default https://github.com/possior/config-vim.git; ./config-vim/in
 | [`vim`](./doc/vim.md) | Configuration that references each configuration file and loads its configuration. |
 | [`filetype`](./doc/filetype.md) | Configuration included in the official document `filetype.txt`. |
 | [`options`](./doc/options.md) | Configuration included in the official document `options.txt`. |
-| [`syntax`](./doc/syntax.md) | Configuration included in the officla document `syntax.txt` |
+| [`syntax`](./doc/syntax.md) | Configuration included in the officla document `syntax.txt`. |
 
 ## Version List
 

@@ -1,13 +1,13 @@
+if filereadable(expand("syntax"))
+    source syntax
+endif
+
 if filereadable(expand("filetype"))
     source filetype
 endif
 
 if filereadable(expand("options"))
     source options
-endif
-
-if filereadable(expand("syntax"))
-    source syntax
 endif
 
 set number

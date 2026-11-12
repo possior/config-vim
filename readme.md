@@ -25,7 +25,7 @@ git clone -vb default https://github.com/possior/config-vim.git; ./config-vim/in
 | [`vim`](./doc/vim.vim.md) | 各設定ファイルを参照してその設定を読み込む設定。 |
 | [`filetype`](./doc/filetype.vim.md) | `filetype.txt`公式説明書に含まれる設定。 |
 | [`options`](./doc/options.vim.md) | `options.txt`公式説明書に含まれる設定。 |
-| [`syntax`](./doc/syntax.md) | `syntax.txt`公式説明書に含まれる設定。 |
+| [`syntax`](./doc/syntax.vim.md) | `syntax.txt`公式説明書に含まれる設定。 |
 
 ## 版本一覧
 
@@ -63,7 +63,7 @@ git clone -vb default https://github.com/possior/config-vim.git; ./config-vim/in
 | [`vim`](./doc/vim.vim.md) | Configuration that references each configuration file and loads its configuration. |
 | [`filetype`](./doc/filetype.vim.md) | Configuration included in the official document `filetype.txt`. |
 | [`options`](./doc/options.vim.md) | Configuration included in the official document `options.txt`. |
-| [`syntax`](./doc/syntax.md) | Configuration included in the officla document `syntax.txt`. |
+| [`syntax`](./doc/syntax.vim.md) | Configuration included in the officla document `syntax.txt`. |
 
 ## Version List
 

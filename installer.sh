@@ -18,7 +18,7 @@ do
   esac
 done
 
-wd="$(dirname "${GIT_SOURCE[0]}")"
+wd="$(dirname "${BASH_SOURCE[0]}")"
 td="$HOME/.config/vim"
 
 files=(

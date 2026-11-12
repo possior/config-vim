@@ -4,6 +4,8 @@ set cursorline
 set encoding=utf-8
 set expandtab
 set laststatus=2
+set runtimepath^=$HOME/.config/vim
+set runtimepath+=$HOME/.config/vim/after
 set shiftwidth=4
 set softtabstop=4
 set tabstop=4

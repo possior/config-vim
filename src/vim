@@ -6,6 +6,5 @@ set number
 filetype on
 filetype plugin on
 filetype indent on
-syntax enable
 
 " CC0 1.0 UNIVERSAL. NO RIGHTS RESERVED. USE AT YOUR OWN RISK, NO WARRANTY.

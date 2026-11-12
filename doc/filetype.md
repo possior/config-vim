@@ -8,6 +8,12 @@
 filetype on
 ```
 
+以下のVimスクリプトは、特定のファイル型式に応じてインデントのファイルを読み込む。
+
+```Vim
+filetype indent on
+```
+
 以下のVimスクリプトは、特定のファイル型式に応じてプラグインのファイルを読み込む。
 
 ```Vim
@@ -20,6 +26,12 @@ The Vim script below enables file type detection.
 
 ```Vim
 filetype on
+```
+
+The Vim script below loads indent files for specific file types.
+
+```Vim
+filetype indent on
 ```
 
 The Vim script below loads plugin files for specific file types.

@@ -11,6 +11,5 @@ if filereadable(expand("syntax"))
 endif
 
 set number
-filetype indent on
 
 " CC0 1.0 UNIVERSAL. NO RIGHTS RESERVED. USE AT YOUR OWN RISK, NO WARRANTY.

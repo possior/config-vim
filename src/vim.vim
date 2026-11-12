@@ -1,13 +1,13 @@
-if filereadable(expand("syntax"))
-    source syntax
+if filereadable(expand("syntax.vim"))
+    source syntax.vim
 endif
 
-if filereadable(expand("filetype"))
-    source filetype
+if filereadable(expand("filetype.vim"))
+    source filetype.vim
 endif
 
-if filereadable(expand("options"))
-    source options
+if filereadable(expand("options.vim"))
+    source options.vim
 endif
 
 set number

@@ -8,12 +8,24 @@
 filetype on
 ```
 
+以下のVimスクリプトは、特定のファイル型式に応じてプラグインのファイルを読み込む。
+
+```Vim
+filetype plugin on
+```
+
 # Vim Document
 
 The Vim script below enables file type detection.
 
 ```Vim
 filetype on
+```
+
+The Vim script below loads plugin files for specific file types.
+
+```Vim
+filetype plugin on
 ```
 
 <!-- CC0 1.0 UNIVERSAL. NO RIGHTS RESERVED. USE AT YOUR OWN RISK, NO WARRANTY. -->

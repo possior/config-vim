@@ -10,6 +10,10 @@ if filereadable(expand("options.vim"))
     source options.vim
 endif
 
+if filereadable(expand("plugins.vim"))
+    source plugins.vim
+endif
+
 set number
 
 " CC0 1.0 UNIVERSAL. NO RIGHTS RESERVED. USE AT YOUR OWN RISK, NO WARRANTY.

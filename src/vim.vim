@@ -1,8 +1,3 @@
-set runtimepath^=~/.config/vim
-set runtimepath+=~/.config/vim/after
-set packpath^=~/.config/vim
-set packpath+=~/.config/vim/after
-
 if filereadable(expand("syntax.vim"))
     source syntax.vim
 endif

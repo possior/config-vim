@@ -1,4 +1,4 @@
-[日本語](#vim説明書)｜[English](#vim-document)｜[`vim`](../src/vim.vim)
+[日本語](#vim説明書)｜[English](#vim-document)｜[`vim.vim`](../src/vim.vim)
 
 # Vim説明書
 

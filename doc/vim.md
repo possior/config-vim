@@ -10,6 +10,14 @@ if filereadable(expand("options"))
 endif
 ```
 
+Vimの`syntax.txt`ドキュメントに対応する設定である。本レポジトリでは`syntax`設定ファイルに格納している。以下のVimスクリプトは、`syntax`が存在して読み込み可能であることを確認した後に、それをセッションに読み込む。
+
+```Vim
+if filereadable(expand("syntax"))
+    source syntax
+endif
+```
+
 # Vim Document
 
 This is the configuration included in the `options.txt` document of Vim. In this repository, the `options` configuration file contains that configuration. The Vim script below loads the file `options` into the session after checking if it exists and is readable.
@@ -17,6 +25,14 @@ This is the configuration included in the `options.txt` document of Vim. In this
 ```Vim
 if filereadable(expand("options"))
     source options
+endif
+```
+
+This is the configuration included in the `syntax.txt` document of Vim. In this repository, the `syntax` configuration file contains that configuration. The Vim script below loads the file `syntax` into the session after checking if it exists and is readable.
+
+```Vim
+if filereadable(expand("syntax"))
+    source syntax
 endif
 ```
 

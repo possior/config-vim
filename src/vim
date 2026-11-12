@@ -2,6 +2,10 @@ if filereadable(expand("options"))
     source options
 endif
 
+if filereadable(expand("syntax"))
+    source syntax
+endif
+
 set number
 filetype on
 filetype plugin on

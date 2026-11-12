@@ -31,7 +31,7 @@ git clone -vb default https://github.com/possior/config-vim.git; ./config-vim/in
 
 | 版本号 | 統一資源位置指定子 |
 | :---: | :---  |
-| `01.02` | [リポジトリ](https://github.com/possior/config-vim/tree/ver.01.02.02/)、[リリース](https://github.com/possior/config-vim/releases/tag/ver.01.02.02/) |
+| `01.02` | [リポジトリ](https://github.com/possior/config-vim/tree/ver.01.02.03/)、[リリース](https://github.com/possior/config-vim/releases/tag/ver.01.02.03/) |
 | `01.01` | [リポジトリ](https://github.com/possior/config-vim/tree/ver.01.01.01/)、[リリース](https://github.com/possior/config-vim/releases/tag/ver.01.01.01/) |
 
 ## 利用許諾
@@ -69,7 +69,7 @@ git clone -vb default https://github.com/possior/config-vim.git; ./config-vim/in
 
 | Version Number | Uniform Resource Locator |
 | :---: | :---  |
-| `01.02` | [repository](https://github.com/possior/config-vim/tree/ver.01.02.02/), [release](https://github.com/possior/config-vim/releases/tag/ver.01.02.02/)
+| `01.02` | [repository](https://github.com/possior/config-vim/tree/ver.01.02.03/), [release](https://github.com/possior/config-vim/releases/tag/ver.01.02.03/)
 | `01.01` | [repository](https://github.com/possior/config-vim/tree/ver.01.01.01/), [release](https://github.com/possior/config-vim/releases/tag/ver.01.01.01/) |
 
 ## License

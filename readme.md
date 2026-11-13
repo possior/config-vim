@@ -38,7 +38,7 @@ curl -fvSLo "$HOME/.config/vim/autoload/plug.vim" --create-dirs https://raw.gith
 
 | 版本号 | 統一資源位置指定子 |
 | :---: | :---  |
-| `01.02` | [リポジトリ](https://github.com/possior/config-vim/tree/ver.01.02.03/)、[リリース](https://github.com/possior/config-vim/releases/tag/ver.01.02.03/) |
+| `01.02` | [リポジトリ](https://github.com/possior/config-vim/tree/ver.01.02.05/)、[リリース](https://github.com/possior/config-vim/releases/tag/ver.01.02.05/) |
 | `01.01` | [リポジトリ](https://github.com/possior/config-vim/tree/ver.01.01.01/)、[リリース](https://github.com/possior/config-vim/releases/tag/ver.01.01.01/) |
 
 ## 利用許諾
@@ -83,7 +83,7 @@ curl -fvSLo "$HOME/.config/vim/autoload/plug.vim" --create-dirs https://raw.gith
 
 | Version Number | Uniform Resource Locator |
 | :---: | :---  |
-| `01.02` | [repository](https://github.com/possior/config-vim/tree/ver.01.02.03/), [release](https://github.com/possior/config-vim/releases/tag/ver.01.02.03/)
+| `01.02` | [repository](https://github.com/possior/config-vim/tree/ver.01.02.05/), [release](https://github.com/possior/config-vim/releases/tag/ver.01.02.05/)
 | `01.01` | [repository](https://github.com/possior/config-vim/tree/ver.01.01.01/), [release](https://github.com/possior/config-vim/releases/tag/ver.01.01.01/) |
 
 ## License

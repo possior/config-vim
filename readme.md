@@ -17,7 +17,7 @@
 git clone -vb default https://github.com/possior/config-vim.git; ./config-vim/installer.sh; rm -vrf config-vim
 ```
 
-本プロジェクトはプラグインの管理をvim-plugプラグインに依存している。以下のスクリプトを用いて、`$HOME/.config/vim/autoload/plug.vim`ディレクトリに導入すること。
+本プロジェクトはプラグインの管理を[vim-plug（外部リポジトリ）](https://github.com/junegunn/vim-plug)プラグインに依存している。以下のスクリプトを用いて、`$HOME/.config/vim/autoload/plug.vim`ディレクトリに導入すること。
 
 ```Bash
 curl -fvSLo "$HOME/.config/vim/autoload/plug.vim" --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -62,7 +62,7 @@ Clone this repository using Git, and execute the `installer.sh` script. On the o
 git clone -vb default https://github.com/possior/config-vim.git; ./config-vim/installer.sh; rm -vrf config-vim
 ```
 
-The plugin management in this project depends on the vim-plug plugin. Install it at `$HOME/.config/vim/autoload/plug.vim` using the script below.
+The plugin management in this project depends on the [vim-plug (external repository)](https://github.com/junegunn/vim-plug) plugin. Install it at `$HOME/.config/vim/autoload/plug.vim` using the script below.
 
 ```Bash
 curl -fvSLo "$HOME/.config/vim/autoload/plug.vim" --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim

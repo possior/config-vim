@@ -48,10 +48,10 @@ for (( i=0; i<"$n"; i++ ))
 do
   if [[ "$mode" == o ]]
   then
-    cp "${files[i]}" "${dests[i]}"
+    cp -r "${files[i]}" "${dests[i]}"
   elif [[ "$mode" == p ]]
   then
-    [[ ! -f "${dests[i]}" ]] && cp "${files[i]}" "${dests[i]}"
+    [[ ! -f "${dests[i]}" ]] && cp -r "${files[i]}" "${dests[i]}"
   fi
 done
 

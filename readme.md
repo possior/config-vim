@@ -17,12 +17,6 @@
 git clone -vb default https://github.com/possior/config-vim.git; ./config-vim/installer.sh; rm -vrf config-vim
 ```
 
-本プロジェクトはプラグインの管理を[vim-plug（外部リポジトリ）](https://github.com/junegunn/vim-plug)プラグインに依存している。以下のスクリプトを用いて、`$HOME/.config/vim/autoload/plug.vim`ディレクトリに導入すること。
-
-```Bash
-curl -fvSLo "$HOME/.config/vim/autoload/plug.vim" --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-```
-
 ## Vim説明書
 
 | 対象ファイル | 概要 |
@@ -32,13 +26,13 @@ curl -fvSLo "$HOME/.config/vim/autoload/plug.vim" --create-dirs https://raw.gith
 | [`filetype.vim`](./doc/filetype.vim.md) | `filetype.txt`公式説明書に含まれる設定。 |
 | [`options.vim`](./doc/options.vim.md) | `options.txt`公式説明書に含まれる設定。 |
 | [`syntax.vim`](./doc/syntax.vim.md) | `syntax.txt`公式説明書に含まれる設定。 |
-| [`plugins.vim`](./doc/plugins.vim.md) | プラグインに係る設定。 |
 
 ## 版本一覧
 
 | 版本号 | 統一資源位置指定子 |
 | :---: | :---  |
-| `01.02` | [リポジトリ](https://github.com/possior/config-vim/tree/ver.01.02.05/)、[リリース](https://github.com/possior/config-vim/releases/tag/ver.01.02.05/) |
+| `01.03` | [リポジトリ](https://github.com/possior/config-vim/tree/ver.01.03.01/)、[リリース](https://github.com/possior/config-vim/releases/tag/ver.01.03.01/) |
+| `01.02` | [リポジトリ](https://github.com/possior/config-vim/tree/ver.01.02.04/)、[リリース](https://github.com/possior/config-vim/releases/tag/ver.01.02.04/) |
 | `01.01` | [リポジトリ](https://github.com/possior/config-vim/tree/ver.01.01.01/)、[リリース](https://github.com/possior/config-vim/releases/tag/ver.01.01.01/) |
 
 ## 利用許諾
@@ -62,12 +56,6 @@ Clone this repository using Git, and execute the `installer.sh` script. On the o
 git clone -vb default https://github.com/possior/config-vim.git; ./config-vim/installer.sh; rm -vrf config-vim
 ```
 
-The plugin management in this project depends on the [vim-plug (external repository)](https://github.com/junegunn/vim-plug) plugin. Install it at `$HOME/.config/vim/autoload/plug.vim` using the script below.
-
-```Bash
-curl -fvSLo "$HOME/.config/vim/autoload/plug.vim" --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-```
-
 ## Vim Documents
 
 | Target File | Description |
@@ -77,13 +65,13 @@ curl -fvSLo "$HOME/.config/vim/autoload/plug.vim" --create-dirs https://raw.gith
 | [`filetype.vim`](./doc/filetype.vim.md) | Configuration included in the official document `filetype.txt`. |
 | [`options.vim`](./doc/options.vim.md) | Configuration included in the official document `options.txt`. |
 | [`syntax.vim`](./doc/syntax.vim.md) | Configuration included in the officla document `syntax.txt`. |
-| [`plugins.vim`](./doc/plugins.vim.md) | Configuration on plugins. |
 
 ## Version List
 
 | Version Number | Uniform Resource Locator |
 | :---: | :---  |
-| `01.02` | [repository](https://github.com/possior/config-vim/tree/ver.01.02.05/), [release](https://github.com/possior/config-vim/releases/tag/ver.01.02.05/)
+| `01.03` | [repository](https://github.com/possior/config-vim/tree/ver.01.03.01/), [release](https://github.com/possior/config-vim/releases/tag/ver.01.03.01/)
+| `01.02` | [repository](https://github.com/possior/config-vim/tree/ver.01.02.04/), [release](https://github.com/possior/config-vim/releases/tag/ver.01.02.04/)
 | `01.01` | [repository](https://github.com/possior/config-vim/tree/ver.01.01.01/), [release](https://github.com/possior/config-vim/releases/tag/ver.01.01.01/) |
 
 ## License

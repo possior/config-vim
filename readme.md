@@ -11,10 +11,22 @@
 
 ## 導入
 
-本リポジトリをGitで複製して`installer.sh`スクリプトを実行すること。`git clone`のオプションについて、`default`は希望するブランチ名やタグ名に置き換えること。`installer.sh`のフラッグについて、設定ファイルを上書き保存する場合は`-o`または`--overwrite`を、しない場合は`-p`または`--preserve`を指定すること。このスクリプトは標準では上書きする。
+本リポジトリを`$HOME/.config/vim`ディレクトリに複製する。`default`は希望するブランチ名やタグ名に置き換えること。
 
 ```Bash
-git clone -vb default https://github.com/possior/config-vim.git; ./config-vim/installer.sh; rm -vrf config-vim
+git clone -vb default https://github.com/possior/config-vim.git "$HOME/.config/vim"
+```
+
+複製したリポジトリを更新する。`default`は希望するブランチ名やタグ名に置き換えること。
+
+```Bash
+cd "$HOME/.config/vim"; git fetch origin; git checkout -f default
+```
+
+一部の設定は`installer.sh`スクリプトを実行して適切な位置に導入する必要がある。設定ファイルを上書き保存する場合は`-o`または`--overwrite`を、しない場合は`-p`または`--preserve`を指定すること。
+
+```Bash
+cd "$HOME/.config/vim"; chmod +x installer.sh; ./installer.sh
 ```
 
 ## Vim説明書
@@ -50,10 +62,22 @@ git clone -vb default https://github.com/possior/config-vim.git; ./config-vim/in
 
 ## Installation
 
-Clone this repository using Git, and execute the `installer.sh` script. On the options of `git clone`, replace `default` with a name of your desired branch or tag. On the falg of `installer.sh`, specify `-o` or `--overwrite` when overwriting the configuration files or `-p` or `--preserve` when not. This script overwrites them by default.
+Clone this repository at the directory `$HOME/.config/vim`. Replace `default` with a branch or tag name you desire.
 
 ```Bash
-git clone -vb default https://github.com/possior/config-vim.git; ./config-vim/installer.sh; rm -vrf config-vim
+git clone -vb default https://github.com/possior/config-vim.git "$HOME/.config/vim"
+```
+
+Update the cloned repository. Replace `default` with a branch or tag name you desire.
+
+```Bash
+cd "$HOME/.config/vim"; git fetch origin; git checkout -f default
+```
+
+Some configuration require execution of the `installer.sh` script to install them at an appropriate location. Specify `-o` or `--overwrite` when overwriting the configuration files or `-p` or `--preserve` when not. This script overwrites them by default.
+
+```Bash
+cd "$HOME/.config/vim"; chmod +x installer.sh; ./installer.sh
 ```
 
 ## Vim Documents

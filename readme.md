@@ -29,6 +29,12 @@ cd "$HOME/.config/vim"; git fetch origin; git checkout -f default
 cd "$HOME/.config/vim"; chmod +x installer.sh; ./installer.sh
 ```
 
+本プロジェクトはプラグインの管理のために[vim-plug（外部リポジトリ）](https://github.com/junegunn/vim-plug)プラグインに依存している。このプラグインを`$HOME/.config/vim/autoload`ディレクトリに導入すること。
+
+```Bash
+curl -fvSLo "$HOME/.config/vim/autoload/plug.vim" --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
 ## Vim説明書
 
 | 対象ファイル | 概要 |
@@ -78,6 +84,12 @@ Some configuration require execution of the `installer.sh` script to install the
 
 ```Bash
 cd "$HOME/.config/vim"; chmod +x installer.sh; ./installer.sh
+```
+
+This projects depends on the [vim-plug (external repository)](https://github.com/junegunn/vim-plug) plugin for plugin management. Install this plugin at the directory `$HOME/.config/vim/autoload`.
+
+```Bash
+curl -fvSLo "$HOME/.config/vim/autoload/plug.vim" --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
 ## Vim Documents

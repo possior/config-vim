@@ -110,8 +110,8 @@ set laststatus=2
 The Vim script below configures the setting `runtimepath` (abbr. `rtp`) that defines a list of directories to look for files on runtime at.
 
 ```Vim
-[set runtimepath^=$HOME/.config/vim
-set runtimepath+=$HOME/.config/vim/after]()
+set runtimepath^=$HOME/.config/vim
+set runtimepath+=$HOME/.config/vim/after
 ```
 
 The Vim script below configures the setting `shiftwidth` (abbr. `sw`) that defines the width of one indent.

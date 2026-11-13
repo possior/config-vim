@@ -1,17 +1,17 @@
-if filereadable(expand("syntax.vim"))
-    source syntax.vim
+if filereadable(expand('$HOME/.config/vim/src/syntax.vim'))
+    source $HOME/.config/vim/src/syntax.vim
 endif
 
-if filereadable(expand("filetype.vim"))
-    source filetype.vim
+if filereadable(expand('$HOME/.config/vim/src/filetype.vim'))
+    source $HOME/.config/vim/src/filetype.vim
 endif
 
-if filereadable(expand("options.vim"))
-    source options.vim
+if filereadable(expand('$HOME/.config/vim/src/options.vim'))
+    source $HOME/.config/vim/src/options.vim
 endif
 
-if filereadable(expand("plugins.vim"))
-    source plugins.vim
+if filereadable(expand('$HOME/.config/vim/src/plugins.vim'))
+    source $HOME/.config/vim/src/plugins.vim
 endif
 
 set number

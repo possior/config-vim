@@ -18,31 +18,20 @@ do
   esac
 done
 
-wd="$(dirname "${BASH_SOURCE[0]}")"
-td="$HOME/.config/vim"
+repo="$(dirname "${BASH_SOURCE[0]}")"
 
 files=(
-  "$wd/doc"
-  "$wd/src"
-  "$wd/license.txt"
-  "$wd/readme.md"
-  "$td/doc/.vimrc.md"
-  "$td/src/.vimrc"
+  "$repo/doc/.vimrc.md"
+  "$repo/src/.vimrc"
 )
 dests=(
-  "$td/doc"
-  "$td/src"
-  "$td/license.txt"
-  "$td/readme.md"
-  "$td/../../.vimrc.md"
-  "$td/../../.vimrc"
+  "$repo/../../.vimrc.md"
+  "$repo/../../.vimrc"
 )
 
 [[ "${#files[@]}" == "${#dests[@]}" ]] && n="${#files[@]}" || exit
 
 [[ -z "$mode" ]] && mode=o || exit
-
-mkdir -p "$td"
 
 for (( i=0; i<"$n"; i++ ))
 do
